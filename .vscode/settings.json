@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "passionkind.prettier-vscode-with-tabs",
+    "editor.formatOnType": true,
+    "files.autoSave": "onFocusChange",
+    "editor.guides.bracketPairs": "active",
+    "prettier.tabWidth": 2,
+    "editor.fontSize": 20,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnPaste": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "less.format.spaceAroundSelectorSeparator": true,
+    "prettier.documentSelectors": [
+        "prettier",
+        "Prettier+",
+        "Prettier"
+    ],
+}

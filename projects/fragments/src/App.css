@@ -1,0 +1,9 @@
+.food-heading{
+  background-color: rgb(18, 17, 17);
+  color: orangered;
+  padding: 8px;
+  border: 2px solid brown;
+  border-radius:20px;
+  text-align: center;
+  justify-content: center;
+}

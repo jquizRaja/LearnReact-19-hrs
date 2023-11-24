@@ -1,0 +1,12 @@
+.Sl-items{
+  background-color: rgb(189, 200, 189);
+  padding: 10px;
+}
+.span{
+  font-weight: 500;
+  color: white;
+}
+
+.button{
+  float: right;
+}
