@@ -3,12 +3,13 @@ import { HiArchiveBoxXMark } from "react-icons/hi2";
 import { TodoItemsContext } from "../store/todo-items-store";
 import { useContext } from "react";
 
-const TodoItem = ({ todoDate, todoName }) => {
-  const { deleteItem } = useContext(TodoItemsContext);
+const TodoItem = ({todoDate, todoName }) => {
+  const { deleteItem } =useContext(TodoItemsContext );
   return (
     <div className="container">
       <div className="row sl-row">
-        <div className="col-6">{todoName}</div>
+        <div className="col-6">{ todoName }
+        </div>
         <div className="col-4">{todoDate}</div>
         <div className="col-2">
           <button

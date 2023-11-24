@@ -4,7 +4,7 @@ import { TodoItemsContext } from '../store/todo-items-store'
 import { useContext } from 'react'
 
 const WelcomeMessage = () => {
-  const {todoItems} = useContext(TodoItemsContext)
+  const { todoItems } = useContext(TodoItemsContext)
   return (
     todoItems.length === 0 &&
     <div className={styles.message}>
